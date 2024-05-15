@@ -13,6 +13,7 @@ namespace ProjekatSkola.Entiteti
         public virtual DateTime DatumAngazovanja { get; set; }
         public AngazovanSaDelomNorme()
         {
+
         }
     }
 }
