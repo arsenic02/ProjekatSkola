@@ -104,6 +104,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entiteti\AngazovanSaDelomNorme.cs" />
+    <Compile Include="Entiteti\AngazovanSaPunomNormom.cs" />
+    <Compile Include="Entiteti\Ima.cs" />
+    <Compile Include="Entiteti\JeRoditelj.cs" />
+    <Compile Include="Entiteti\Na.cs" />
+    <Compile Include="Entiteti\NenastavnoOsoblje.cs" />
+    <Compile Include="Entiteti\Ocena.cs" />
+    <Compile Include="Entiteti\OsobljeSaDelomCasova.cs" />
+    <Compile Include="Entiteti\OsobljeSaPunomNormom.cs" />
+    <Compile Include="Entiteti\Predmet.cs" />
+    <Compile Include="Entiteti\Razred.cs" />
+    <Compile Include="Entiteti\RoditeljskoVece.cs" />
+    <Compile Include="Entiteti\Smer.cs" />
+    <Compile Include="Entiteti\Ucenik.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +154,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mapiranja\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
